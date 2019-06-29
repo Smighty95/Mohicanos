@@ -1,0 +1,123 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("../Media/Images/MohicanosBackground2.jpg");
+        min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+
+    .w3-bar{
+    background-image: linear-gradient(250deg,rgb(48,48,48) 1%, whitesmoke 3%, black 100%);
+    }
+
+    #hm{
+        background-color: rgb(22, 22, 22);
+        color: white;
+    }
+
+    .container {
+        width:80%;
+        margin: 0 auto;
+        padding: 10px 10px 10px 10px;
+      }
+      
+      .slideshow_wrapper {
+        width:100%;
+        height:100%;
+        overflow: hidden;
+      }
+      
+      .slideshow {
+        width:1500px;
+        height:280px;
+        margin: 0 0 0 -1000px;
+       position: relative;
+        -webkit-animation-name: slide_animation;
+        -webkit-animation-duration:20s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:alternate;
+         -webkit-animation-play-state: running;
+      }
+      
+      .slide {
+        width:500px;
+        height: 250px;
+        position:relative;
+        float:left;
+        overflow:hidden;
+      }
+      
+      .slideshow img{
+        width:500px; height:250px;
+      }
+      
+      @-webkit-keyframes slide_animation {
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:0px;}
+        30% {left:500px;}
+        40% {left:500px;}
+        50% {left:500px;}
+        60% {left:500px;}
+        70% {left:1000px;}
+        80% {left:1000px;}
+        90% {left:1000px;}
+        100% {left:1000px;}
+      }
+
+      ul.menu {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.menu li {
+			display: inline-block;
+			line-height: 1em;
+			border-left: solid 1px #e6e6e6;
+			padding: 0 0 0 0.5em;
+			margin: 0 0 0 0.5em;
+		}
+
+			ul.menu li:first-child {
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+            }
+            #vrh{
+				margin-right: 5px;
+				margin-bottom: 10px;
+				padding: 10px;
+				color: rgb(63, 54, 54);
+            }
+            .Top_Page
+            {
+                bottom: 0;
+                right: 0;
+                float: right;
+                position: fixed;
+                opacity: 0.5;
+            
+            }
